@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app{
+  background-color: rgb(43, 124, 218);
+  border-radius: 5px;
+  padding: 15px;
+  width: 250px;
+}
+.container h2{
+  color: #FFF;
+}
+.container img{
+  width: 120px;
+}
+.container p{
+  color: #fff;
+}
+.container input{
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.input-container{
+  position: relative;
+}
+
+.input-container input{
+  position: relative;
+  left: 0px;
+
+}
+.input-container button{
+  position: absolute;
+  right: 0px;
+  color: black;
+  background-color: transparent;
+  padding: 8px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+.input-container button:focus{
+  border: none;
+  outline: none;
+}
